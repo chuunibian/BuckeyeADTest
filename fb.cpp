@@ -17,11 +17,9 @@ void fizzBizz(int amount) {
     for(int i = 1; i <= amount; i++){
         if(i % 3 == 0){
             temp+="Fizz";
-
         }
         if(i % 5 == 0){
             temp+="Fizzy";
-
         }
         if(i % 7 == 0){
             temp+="Buzz";
